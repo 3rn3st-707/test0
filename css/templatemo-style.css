@@ -321,7 +321,7 @@ nav {
 }
 
 .portfolio-item video {
-  height: auto;
+  height: 80%;
   overflow: hidden;
 }
 
