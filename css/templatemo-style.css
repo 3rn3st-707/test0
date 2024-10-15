@@ -6,8 +6,11 @@ https://templatemo.com/tm-520-highway
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
 body {
-  font-family: 'Courier New', monospace;
+  font-family: 'Merriweather', serif;
 }
 
 body::-webkit-scrollbar {
@@ -63,11 +66,23 @@ nav .logo {
 
 }
 
+nav .menu {
+  float: right;
+  margin-right: .4em;
+  list-style-type: none;
+}
+
+nav .menu li a {
+  margin: .4em;
+  color: #90f6fa !important;
+  padding-bottom: .3em;
+}
+
 nav .logo a {
   font-size: 28px;
   line-height: 80px;
   text-transform: uppercase;
-  color: #f4dd5b !important;
+  color: pink;
   text-decoration: none;
   letter-spacing: 0.5px;
 }
@@ -90,7 +105,7 @@ nav {
 
 .menu-icon {
   background: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #6cb1c2;
   width: 50px;
   height: 50px;
   margin: 15px 39px 0 auto;
@@ -321,9 +336,10 @@ nav {
 }
 
 .portfolio-item video {
-  height: 80%;
   overflow: hidden;
 }
+
+
 
 .portfolio-item .thumb {
   position: relative;
@@ -1355,4 +1371,33 @@ footer a:hover {
     text-align: center;
   }
 
+}
+
+
+
+/*    Aca empieza la joda     */
+
+.video-thumb {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+menu-icon-social {
+  margin: 30px;
+}
+
+.fa {
+  font-size: 55px;
+  width: 110px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+}
+
+.menu {
+  display: flex;
+}
+
+.header-title {
+  color: #90f6fa;
 }
